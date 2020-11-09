@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get -y install python3
 RUN apt-get -y install python3-pip
-RUN apt install -y git
+RUN apt-get install -y git
 
 RUN pip3 install -U pip
 RUN pip3 install jupyter numpy matplotlib opencv-python pandas
